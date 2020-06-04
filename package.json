@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Jenshenwebdes/Repair_design/issues"
   },
-  "homepage": "https://github.com/Jenshenwebdes/Repair_design#readme"
+  "homepage": "https://github.com/Jenshenwebdes/Repair_design#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {}
 }
