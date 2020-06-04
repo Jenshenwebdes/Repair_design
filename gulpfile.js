@@ -2,7 +2,6 @@ const {src, dest, watch} = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 
-
 //Static Server
 
 function bs(){

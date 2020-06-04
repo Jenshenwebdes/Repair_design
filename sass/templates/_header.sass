@@ -1,0 +1,55 @@
+.header
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    z-index: 99
+    background-color: $dark
+    padding: 24px 0 
+    
+.menu
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.logo
+    position: relative
+    font-size: 1.075rem
+    color: $primary
+    text-transform: uppercase
+    font-weight: 500
+    font-family: Futura Demi
+    text-decoration: none
+    margin-right: 3rem
+    transition: 0.3s
+    &:hover
+        color: $light
+        text-shadow: 2px 2px 8px $light
+        
+.nav
+  &__item
+    text-decoration: none
+    color: $light
+    text-transform: uppercase
+    margin-right: 2.8rem
+    &:hover
+        text-shadow: 1px 1px 4px $primary
+        color: $primary
+        transition: 0.3s
+
+.phone
+    color: $primary
+    &:hover
+        color: $light
+        border-bottom: none
+        transition: 0.3s        
+
+.contacts
+    &__phone
+     margin-right: 45px
+     font-family: Futura Demi
+     text-decoration: none
+     border-bottom: 1px solid $primary
+    .button
+        &--primary
+            font-family: Futura Demi
