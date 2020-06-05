@@ -584,7 +584,7 @@ img {
     font-size: 2rem; }
   .hero__content {
     max-width: 100%;
-    min-height: 476px;
+    height: 476px;
     margin: 0; }
   .hero__text {
     font-size: 1.5rem;
