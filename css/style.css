@@ -408,6 +408,7 @@ template {
   margin: auto; }
 
 .hero {
+  height: 100vh;
   color: #fff;
   position: relative;
   display: flex;
@@ -420,7 +421,6 @@ template {
     display: flex;
     flex-direction: column;
     background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
-    height: 100vh;
     width: 100%;
     position: relative;
     padding-left: 16rem;
@@ -511,7 +511,7 @@ template {
 .title {
   position: relative;
   margin: 0;
-  font-family: Yeseva One, cursive;
+  font-family: Yeseva One;
   text-transform: uppercase;
   font-size: 2.857rem;
   font-weight: normal;
@@ -527,26 +527,23 @@ html {
 
 body {
   font-family: 'Futura Book', sans-serif;
-  font-size: 1rem;
-  overflow-x: hidden; }
+  font-size: 1rem; }
 
 img {
   max-width: 100%; }
 
-.section {
-  padding: 60px 0; }
-  .section-title {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Yeseva One; }
-    .section-title__image::before, .section-title__image::after {
-      content: '';
-      display: inline-block;
-      vertical-align: text-top;
-      width: 32px;
-      height: 2px;
-      background-color: #E3B873;
-      margin: 0 10px; }
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Yeseva One, cursive; }
+  .section-title__image::before, .section-title__image::after {
+    content: '';
+    display: inline-block;
+    vertical-align: text-top;
+    width: 32px;
+    height: 2px;
+    background-color: #E3B873;
+    margin: 0 10px; }
 
 @media screen and (max-width: 1400px) {
   .nav__item {
@@ -577,15 +574,6 @@ img {
     display: none; }
   .hero__content {
     padding-left: 3rem; } }
-
-@media screen and (max-width: 760px) {
-  .row {
-    flex-direction: column;
-    align-items: center; }
-  .types__card {
-    margin-bottom: 4.29rem; }
-  .card__text {
-    margin-left: 0; } }
 
 @media screen and (max-width: 576px) {
   .contacts__phone {
@@ -654,7 +642,7 @@ img {
   margin: 0;
   font-size: 1.07rem;
   line-height: 1.79rem;
-  color: #363636;
+  color: #959595;
   margin-bottom: 2.5rem; }
 
 .card__pricetag {
