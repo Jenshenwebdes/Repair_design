@@ -668,3 +668,9 @@ img {
 
 .design__section-title {
   padding-top: 11rem; }
+
+.section-title {
+  font-size: 1.428rem;
+  line-height: 1.928rem;
+  text-transform: none;
+  font-family: 'Futura Book', sans-serif; }
