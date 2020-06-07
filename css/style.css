@@ -632,10 +632,11 @@ img {
   padding: 1.79rem 2.14rem; }
 
 .card__title {
-  font-family: Yeseva One, cursive;
-  font-size: 1.29rem;
-  margin-top: 0;
-  margin-bottom: 0.7rem; }
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px; }
 
 .card__list {
   padding: 0 0 0 1rem;
@@ -669,8 +670,19 @@ img {
 .design__section-title {
   padding-top: 11rem; }
 
-.section-title {
+.description {
+  display: inline-block;
+  max-width: 52.928rem;
   font-size: 1.428rem;
   line-height: 1.928rem;
   text-transform: none;
-  font-family: 'Futura Book', sans-serif; }
+  font-family: 'Futura Book', sans-serifs; }
+
+.section-title__heading {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase; }
