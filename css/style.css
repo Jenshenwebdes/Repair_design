@@ -573,7 +573,7 @@ img {
   .hero__scroll-down {
     display: none; }
   .hero__content {
-    padding-left: 3rem; } }
+    padding-left: 1.28rem; } }
 
 @media screen and (max-width: 576px) {
   .contacts__phone {
@@ -636,7 +636,8 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px; }
+  line-height: 25px;
+  color: #363636; }
 
 .card__list {
   padding: 0 0 0 1rem;
@@ -665,7 +666,9 @@ img {
   .types__card {
     margin-bottom: 4.29rem; }
   .card__text {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .design__card {
+    margin-bottom: 4.29rem; } }
 
 .design__section-title {
   padding-top: 11rem; }
@@ -676,7 +679,8 @@ img {
   font-size: 1.428rem;
   line-height: 1.928rem;
   text-transform: none;
-  font-family: 'Futura Book', sans-serifs; }
+  font-family: 'Futura Book', sans-serifs;
+  color: #363636; }
 
 .section-title__heading {
   font-family: Yeseva One;
@@ -685,4 +689,5 @@ img {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #363636; }
