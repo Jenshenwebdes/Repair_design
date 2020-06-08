@@ -423,7 +423,7 @@ template {
     background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
     width: 100%;
     position: relative;
-    padding-left: 16rem;
+    padding-left: 4.28rem;
     justify-content: center; }
     .hero__content::before {
       content: '';
