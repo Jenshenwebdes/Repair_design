@@ -1,0 +1,66 @@
+
+.section
+  &-title
+    &__above
+      font-family: 'FuturaDemi', sans-serif
+      font-style: normal
+      font-weight: 500
+      font-size: 1.07rem
+      line-height: 1.5rem
+      text-transform: uppercase
+    &__word
+      &::after
+        height: 1px
+        margin-left: 6.07rem
+.swiper
+  &-slide
+    &__count
+      font-family: 'Yeseva One', sans-serif
+      font-weight: normal
+      font-size: 1.28rem
+      line-height: 1.78rem
+    &__heading
+      font-family: 'Yeseva One'
+      font-style: normal
+      font-weight: normal
+      font-size: 15px
+      line-height: 23px
+      text-transform: uppercase
+    &__text
+      font-style: normal
+      font-weight: normal
+      font-size: 15px
+      line-height: 25px
+      flex-basis: 65%
+.list
+  padding: 0
+  margin-top: 6.5rem
+  list-style: none
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  &__item
+    flex-basis: 30%
+    opacity: 0.3
+    cursor: pointer
+    transition: 0.3s
+    &:hover
+      opacity: 1
+    &--active
+      opacity: 1
+  &__number
+    margin: 0
+    display: inline-block
+    font-family: 'Yeseva One', cursive
+    font-size: 1.071rem
+    line-height: 1.5rem
+    font-weight: 400
+    border-bottom: 1px solid $primary
+  &__description
+    margin: 0
+    margin-top: 1.214rem
+    margin-bottom: 2.57rem
+    font-size: 1.071rem
+    line-height: 1.288rem
+  &__word
+    display: block

@@ -50,6 +50,7 @@ $(modal).on('click', function(event) {
 		pagination: {
 			el: '.swiper-pagination',
 			type: 'bullets',
+			clickable: true,
 		},
 		navigation: {
 			nextEl: '.swiper-button-next',
@@ -60,8 +61,13 @@ $(modal).on('click', function(event) {
 	var next = $('.swiper-button-next');
 	var prev = $('.swiper-button-prev');
 	var bullets = $('.swiper-pagination');
+	var nextSecond = $('.swiper-button-next--second');
+	var bulletsSecond = $('.swiper-pagination--second');
 
 	next.css('left', prev.width() + 10 + bullets.width() + 10)
 	bullets.css('left', prev.width() + 10)
+
+	nextSecond.css('left', prev.width() + bulletsSecond.width() + 20);
+  bulletsSecond.css('left', prev.width() + 10);
 
 });
